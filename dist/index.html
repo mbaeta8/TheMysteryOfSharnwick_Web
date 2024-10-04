@@ -11,9 +11,12 @@
 <!-- partial:index.partial.html -->
 <!-- Hero -->
   <section class="et-hero-tabs">
+   
     <h1>The Mystery of Sharnwick</h1>
-    <button>Jugar</button>
-    <video src="../vid/CorazónpabloMotos.mp4" height="100" width="100" autoplay loop></video>
+      <button class="botonPlay">Jugar</button>
+    <video autoplay muted loop type="video/mp4" id="pabloMotas">
+      <source src="../vid/sunset.mp4" type="video/mp4">
+    </video>
     <div class="et-hero-tabs-container">
       <a class="et-hero-tab" href="#tab-es6">Historia</a>
       <a class="et-hero-tab" href="#tab-flexbox">Personajes</a>
@@ -23,32 +26,43 @@
       <span class="et-hero-tab-slider"></span>
     </div>
   </section>
+  
 
   <!-- Main -->
   <main class="et-main">
-    <section class="et-slide" id="tab-es6">
-      <h1>Historia</h1>
-      <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam cursus lobortis ex. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In id tincidunt dolor. Proin tincidunt lorem quis purus condimentum finibus. Cras accumsan ultricies nunc, nec malesuada ex posuere a. Suspendisse non tristique dolor. Quisque quis massa placerat, fringilla nulla nec, facilisis dui. Sed risus mauris, venenatis nec elit in, porta condimentum sem. Nulla a pulvinar tortor. Vestibulum et leo massa. Mauris facilisis sed magna non tristique. Proin purus orci, posuere a imperdiet sed, blandit ornare neque. In euismod lacus lacus, eget faucibus ex porta eu. Integer bibendum magna nisi, ac finibus ex gravida auctor.</h4>
-      <img src="../img/puebloPequeño.jpg" alt="Imagen Referencia Historia" height="200" width="500">
+    <section class="et-slide sectionHistoria" id="tab-es6">
+
+      <div class="textInSection">
+        <h1>Historia</h1>
+        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam cursus lobortis ex. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In id tincidunt dolor. Proin tincidunt lorem quis purus condimentum finibus. Cras accumsan ultricies nunc, nec malesuada ex posuere a. Suspendisse non tristique dolor. Quisque quis massa placerat, fringilla nulla nec, facilisis dui. Sed risus mauris, venenatis nec elit in, porta condimentum sem. Nulla a pulvinar tortor. Vestibulum et leo massa. Mauris facilisis sed magna non tristique. Proin purus orci, posuere a imperdiet sed, blandit ornare neque. In euismod lacus lacus, eget faucibus ex porta eu. Integer bibendum magna nisi, ac finibus ex gravida auctor.</h3>
+        <img src="../img/puebloPequeï¿½o.jpg" alt="Imagen Referencia Historia" height="200" width="500">
+      </div>
     </section>
-    <section class="et-slide" id="tab-flexbox">
-      <h1>Personajes</h1>
-      <img src="../img/brujo.JPG" alt="Imagen Brujo" height="150" width="200">
-      <img src="../img/Campesino.JPG" alt="Imgagen Campesino" height="150" width="200">
-      <img src="../img/Noble.JPG" alt="Imagen Noble" height="150" width="200">
+    <section class="et-slide sectionPersonajes" id="tab-flexbox">
+      <div class="textInSection">
+        <h1>Personajes</h1>
+        <img src="../img/brujo.JPG" alt="Imagen Brujo" height="150" width="200">
+        <img src="../img/Campesino.JPG" alt="Imgagen Campesino" height="150" width="200">
+        <img src="../img/Noble.JPG" alt="Imagen Noble" height="150" width="200">
+      </div>
     </section>
-    <section class="et-slide" id="tab-react">
-      <h1>Mapa</h1>
-      <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam cursus lobortis ex. Class aptent taciti</h3>
-      <img src="../img/mapa.jpg" alt="Imagen Mapa Juego" height="150" width="200">
+    <section class="et-slide sectionMapa" id="tab-react">
+      <div class="textInSection">
+        <h1>Mapa</h1>
+        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam cursus lobortis ex. Class aptent taciti</h3>
+      </div>
     </section>
-    <section class="et-slide" id="tab-angular">
-      <h1>Noticias</h1>
-      <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam cursus lobortis ex. Class aptent taciti</h3>
+    <section class="et-slide sectionNoticias" id="tab-angular">
+      <div class="textInSection">
+        <h1>Noticias</h1>
+        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam cursus lobortis ex. Class aptent taciti</h3>
+      </div>
     </section>
-    <section class="et-slide" id="tab-other">
-      <h1>Comunidad</h1>
-      <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam cursus lobortis ex. Class aptent taciti</h3>
+    <section class="et-slide sectionComunidad" id="tab-other">
+      <div class="textInSection">
+        <h1>Comunidad</h1>
+        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam cursus lobortis ex. Class aptent taciti</h3>
+      </div>
     </section>
   </main>
 <!-- partial -->
