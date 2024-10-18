@@ -93,12 +93,12 @@ const personajes = {
         debilidades: "Lista de debilidades del Personaje 2."
 	},
 	Noble: {
-        title: "Noble, el Campesino Resuelto",
+        title: "Lord Aldric de Valsyre",
         image: "../img/Noble.JPG",
-        description: "Descripcion completa del Personaje 2.",
-        habilidad: "Habilidad del Personaje 2.",
-        fortalezas: "Lista de fortalezas del Personaje 2.",
-        debilidades: "Lista de debilidades del Personaje 2."
+        description: "Lord Aldric de Valsyre es un noble espadachín de porte imponente, con cabello oscuro y barba bien cuidada. Sus ojos grises reflejan una fría determinación, fruto de la tragedia que marcó su vida. Viste con armaduras ligeras y elegantes, diseñadas tanto para la batalla como para la corte, y lleva una espada de acero refinado con empuñadura dorada, símbolo de su linaje. Hábil en combate y tácticas militares, Aldric inspira a sus aliados con su carisma y astucia. Sin embargo, su sed de venganza lo impulsa, y lucha contra el peligro de dejar que su deseo de justicia lo consuma por completo.",
+        habilidad: "Estocada Precisa, Llamada a las Armas, Parada Magistral y Estratega Astuto",
+        fortalezas: "Carismático líder, hábil espadachín y estratega resiliente.",
+        debilidades: "Vulnerable a magia, deseo de venganza que nublada su juicio."
 	}
 };
 
