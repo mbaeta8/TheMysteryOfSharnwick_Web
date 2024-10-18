@@ -97,14 +97,14 @@ a {
 }
 
 .sectionComunidad{
-  background-image: url(../img/gifComunidad.gif);
+  background-image: url(../img/BYuHU0n.gif);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom, center;
 }
 
 .sectionPersonajes{
-  background-image: url(../img/gifPersonajes.gif);
+  background-image: url(../img/gifComunidad.gif);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom, center;
@@ -186,7 +186,133 @@ a {
   }
 }
 
-.site-footer
+/* PERSONAJES */
+
+.characters-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.character {
+  display: flex;
+  align-items: center;
+  text-decoration: none; 
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  width: calc(33.33% - 40px);
+  margin: 10px; 
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.character:hover {
+  transform: scale(1.05); 
+}
+
+.character img {
+  width: 80px;
+  height: 100px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  margin-right: 10px;
+}
+
+.character-info {
+  flex: 1;
+  text-align: left;
+  color: #333;
+}
+
+.character-info h3 {
+  margin: 0;
+  font-size: 1.2em;
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .character {
+      width: calc(50% - 40px); 
+  }
+}
+
+@media (max-width: 480px) {
+  .character {
+      width: calc(100% - 40px); 
+  }
+}
+
+.popup {
+  display: none; 
+  position: fixed;
+  z-index: 1000; 
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); 
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content {
+  background-color: #fff;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 600px;
+  position: relative;
+}
+
+.popup-content h1 {
+  font-size: 25px;
+  color: #000;
+  background-color: lightblue;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.popup-body {
+  display: flex; 
+  align-items: flex-start;
+}
+
+.popup img {
+  width: 100px; 
+  height: auto; 
+  border-radius: 10px;
+  margin-right: 20px; 
+  margin-top: 10%;
+}
+
+.popup-description {
+  text-align: left; 
+}
+
+.popup-description p {
+  margin: 10px 0;
+}
+
+.popup-description strong {
+  font-weight: bold;
+}
+
+/* FOOOTER */
+
+.site-footer  
 {
   background-color:#26272b;
   padding:10px 0 10px;
