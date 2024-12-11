@@ -1,0 +1,18 @@
+[
+    {
+      "id": 1,
+      "title": "Cambios en la movilidad del Personaje",
+      "image": "../img/communityBackground.png",
+      "date": "2024-12-10",
+      "excerpt": "Hemos cambiado la movilidad del Personaje a raiz de que habian algunos problemas con las colisiones en algunos objetos",
+      "fullContent": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum dignissim odio, non vehicula massa congue in. "
+    },
+    {
+      "id": 2,
+      "title": "Nueva Actualización",
+      "image": "../img/communityBackground.png",
+      "date": "2024-12-05",
+      "excerpt": "Resumen de la actualización que mejorara el juego.",
+      "fullContent": "Contenido completo sobre la nueva actualizacion, sus caracteristicas, y como afectara la experiencia de juego."
+    }
+]

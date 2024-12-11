@@ -1,0 +1,31 @@
+[
+    {
+      "id": 1,
+      "title": "¿Cuál es tu personaje favorito?",
+      "author": "Usuario123",
+      "summary": "Comenta aquí sobre tu personaje favorito del juego y por qué te gusta tanto...",
+      "comments": [
+        {
+          "author": "Jugador1",
+          "content": "Me encanta el mago, tiene unas habilidades impresionantes."
+        },
+        {
+          "author": "Jugador2",
+          "content": "El guerrero es mi favorito, su resistencia es increíble."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Nuevas estrategias para ganar batallas",
+      "author": "Usuario456",
+      "summary": "Si tienes alguna estrategia nueva para derrotar a los jefes, ¡compártela aquí!",
+      "comments": [
+        {
+          "author": "Jugador3",
+          "content": "Una de las mejores estrategias es usar los hechizos de control de masas."
+        }
+      ]
+    }
+  ]
+  

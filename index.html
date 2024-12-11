@@ -12,13 +12,11 @@
 
 </head>
 <body>
-<!-- partial:index.partial.html -->
-<!-- Hero -->
   <section class="et-hero-tabs">
     <h1>The Mystery of Sharnwick</h1>
-      <button class="botonPlay">Jugar</button>
+      <!-- <button class="botonPlay">Jugar</button> -->
     <video autoplay muted loop type="video/mp4" id="pabloMotas">
-      <source src="/vid/sunset.mp4" type="video/mp4">
+      <source src="/vid/TheMysteryOfSharnwickX2.mp4" type="video/mp4">
     </video>
     <div class="et-hero-tabs-container">
       <a class="et-hero-tab" href="#tab-es6">Historia</a>
@@ -113,26 +111,70 @@
             </div>
           </div>
         </div>
+        </div>
     </section>
     <section class="et-slide sectionMapa" id="tab-react">
-      <div class="textInSection">
-        <h1>Mapa</h1>
-        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam cursus lobortis ex. Class aptent taciti</h3>
+      <div class="textInSection" style="display: flex; flex-direction: column; align-items: center;">
+        <h1 style="margin-bottom: 20px;">Mapa</h1>
+        <div style="display: flex; align-items: center; justify-content: center; gap: 20px; width: 100%;">
+          <img src="img/MapaMundo.jpg" width="400px">
+          <h3 style="font-size: 1.2rem; line-height: 1.6; color: white; font-family: 'Gowun Batang', serif; max-width: 800px; margin: 0 auto;">
+            Este mapa representa una tierra medieval exiliada, llena de contrastes y diversidad. En el centro se encuentra una ciudad medieval amurallada, protegida por sus imponentes estructuras. Al norte, una densa zona boscosa es hogar de vida salvaje y secretos naturales. Al este, un pequeño pueblo campesino con casas modestas se alinea junto a campos de cultivo y pastoreo. Hacia el oeste, una cadena montañosa alberga una cueva misteriosa, posiblemente un refugio de tesoros escondidos o aventuras peligrosas. Este mapa nos invita a explorar un mundo rico en historia y lleno de posibilidades.
+          </h3>
+        </div>
       </div>
     </section>
     <section class="et-slide sectionNoticias" id="tab-angular">
       <div class="textInSection">
         <h1>Noticias</h1>
-        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam cursus lobortis ex. Class aptent taciti</h3>
+        <div class="news-container">
+          <div class="news-card">
+            <img src="/img/puebloMapa.jpg" alt="Noticia 1">
+            <div class="news-content">
+              <h3>Cambios en la movilidad del Personaje</h3>
+              <p>Hemos cambiado la movilidad del Personaje ya que...</p>
+              <span class="news-date">Publicado: 10/12/2024</span>
+              <a href="/noticias/noticias.html?id=1" class="read-more">Leer más</a>
+            </div>
+          </div>
+          <div class="news-card">
+            <img src="/img/communityBackground.png" alt="Segunda Noticia">
+            <div class="news-content">
+              <h3>Nueva Actualización Increíble</h3>
+              <p>Resumen de la actualización que mejorará el juego...</p>
+              <span class="news-date">Publicado: 2024-12-05</span>
+              <a href="/noticias/noticias.html?id=2" class="read-more">Leer más</a>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
     <section class="et-slide sectionComunidad" id="tab-other">
       <div class="textInSection">
         <h1>Comunidad</h1>
+        <h3>¡Únete a nuestra comunidad de jugadores y comparte tu experiencia!</h3>
+        <p>En nuestra comunidad, podrás discutir sobre estrategias, compartir tus logros y conectarte con otros jugadores. ¡Explora el foro y sé parte de esta aventura!</p>
+        <a href="/comunidad/comunidad.html" class="community-button">Ir al Foro de la Comunidad</a>
+        <div class="community-members">
+          <div class="member-card">
+            <img src="/img/brujo.JPG" alt="Miembro 1">
+            <h3>Eldric, el Tejedor de Sombras</h3>
+            <p>Miembro desde 2024</p>
+          </div>
+          <div class="member-card">
+            <img src="/img/Campesino.JPG" alt="Miembro 2">
+            <h3>Thane, el Campesino</h3>
+            <p>Miembro desde 2023</p>
+          </div>
+          <div class="member-card">
+            <img src="/img/Noble.JPG" alt="Miembro 3">
+            <h3>Lord Aldric</h3>
+            <p>Miembro desde 2022</p>
+          </div>
+        </div>
       </div>
     </section>
   </main>
-<!-- partial -->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script><script  src="/dist/script.js"></script>
   <footer class="site-footer">
     <div class="container">
