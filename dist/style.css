@@ -387,6 +387,7 @@ a {
   font-size: 1.8rem;
   color: #ffffff;
   margin-bottom: 40px;
+  text-align: center;
 }
 
 .sectionComunidad p {
@@ -429,6 +430,7 @@ a {
   font-size: 1.2rem;
   color: #333;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 .member-card p {
